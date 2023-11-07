@@ -23,8 +23,8 @@
 
 # Sample Of Website <a name="Sample-Of-Website"></a>
 
-![alt text](./sample/)
-![alt text](./sample/)
+![alt text](./sample/1.png)
+![alt text](./sample/2.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
