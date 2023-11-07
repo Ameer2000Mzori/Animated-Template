@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Animated-Template</title>
   </head>
   <body class="text-gray-800 antialiased">
@@ -33,7 +34,7 @@
           <a
             class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            >Tailwind Starter Kit</a
+            >Animated-Template</a
           >
           <button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -47,19 +48,6 @@
           class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
           id="example-collapse-navbar"
         >
-          <ul class="flex flex-col lg:flex-row list-none mr-auto">
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
-              >
-                <i
-                  class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
-                ></i>
-                Docs
-              </a>
-            </li>
-          </ul>
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li class="flex items-center">
               <a
@@ -94,15 +82,7 @@
                 ><span class="lg:hidden inline-block ml-2">Star</span>
               </a>
             </li>
-            <li class="flex items-center">
-              <button
-                class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                type="button"
-                style="transition: all 0.15s ease 0s"
-              >
-                <i class="fas fa-arrow-alt-circle-down"></i> Download
-              </button>
-            </li>
+            <li class="flex items-center"></li>
           </ul>
         </div>
       </div>
@@ -128,12 +108,13 @@
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
                 <h1 class="text-white font-semibold text-5xl">
-                  Your story starts with us.
+                  Our story starts with:
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  This is a simple example of a Landing Page you can build using
-                  Tailwind Starter Kit. It features multiple CSS components
-                  based on the Tailwindcss design system.
+                  Animated Template is a website dedicated to helping you
+                  explore the implementation of animation libraries in web
+                  development. In this instance, I've utilized the Tailwind
+                  Starter Kit to animate the entire website.
                 </p>
               </div>
             </div>
@@ -704,22 +685,10 @@
             </h5>
             <div class="mt-6">
               <button
-                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                <i class="flex fab fa-twitter"></i>
-              </button>
-              <button
                 class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
                 <i class="flex fab fa-facebook-square"></i>
-              </button>
-              <button
-                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                <i class="flex fab fa-dribbble"></i>
               </button>
               <button
                 class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -824,6 +793,12 @@
       </div>
     </footer>
   </body>
+  <!-- <AOS.JS> -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script>
     function toggleNavbar(collapseID) {
       document.getElementById(collapseID).classList.toggle("hidden");
