@@ -17,7 +17,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portafolio <a name="about-project"></a>
+# 📖 Animated Template <a name="about-project"></a>
 
 > Animated Template is a website dedicated to helping you explore the implementation of animation libraries in web development. In this instance, I've utilized the Tailwind Starter Kit to animate the entire website. Feel free to experience the live demo for yourself.
 
